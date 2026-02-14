@@ -1,5 +1,5 @@
 body {
-    background: url("/public/images/bg.png") no-repeat;
+    background: url("./public/images/bg.png") no-repeat;
     background-size: cover;
     height: 100vh;
     font-family: Arial, sans-serif;
