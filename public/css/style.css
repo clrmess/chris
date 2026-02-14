@@ -1,5 +1,7 @@
 body {
-    background-color: white;
+    background: url("/public/images/bg.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,9 +21,10 @@ body {
 }
 
 #no-button {
+    border-radius: 15px;
     margin: 0 10px;
     color: white;
-    background-color: red;
+    background-color: #fa003F;
     height: 40px !important;
     width: auto;
     border: none;
@@ -35,10 +38,11 @@ body {
 }
 
 #yes-button {
+    border-radius: 15px;
     margin: 0 10px;
     color: white;
     border: none;
-    background-color: green;
+    background-color: #7AAD7B;
     cursor: pointer;
     height: 40px;
 
